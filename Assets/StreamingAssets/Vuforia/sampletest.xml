@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+    <Tracking>
+        <ImageTarget name="4_2" size="1.000000 0.665455"/>
+        <ImageTarget name="QR_01" size="1.000000 1.000000"/>
+        <ImageTarget name="6" size="1.000000 0.981273"/>
+        <ImageTarget name="5" size="1.000000 1.000000"/>
+        <ImageTarget name="qrcode" size="1.000000 1.000000"/>
+        <ImageTarget name="download" size="1.000000 0.701493"/>
+        <ImageTarget name="cuboid.Left" size="1.000000 1.000000"/>
+        <ImageTarget name="cuboid.Front" size="1.000000 1.000000"/>
+        <ImageTarget name="cuboid.Right" size="1.000000 1.000000"/>
+        <MultiTarget name="cuboid">
+            <Part name="cuboid.Left" translation="-0.5 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="cuboid.Right" translation="0.5 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="cuboid.Front" translation="0 0 0.5" rotation="AD: 1 0 0 0"/>
+        </MultiTarget>
+    </Tracking>
+</QCARConfig>
